@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'vazirmatn';
+  src: url("/fonts/Vazir-Bold.eot") format('embedded-opentype'),
+    url('/fonts/Vazir-Bold.woff') format('woff'),
+    url('/fonts/Vazir-Bold.woff2') format('woff2');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'vazirmatn';
+  src: url("/fonts/Vazir-Medium.eot") format('embedded-opentype'),
+    url('/fonts/Vazir-Medium.woff') format('woff'),
+    url('/fonts/Vazir-Medium.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'vazirmatn';
+  src: url("/fonts/Vazir-Thin.eot") format('embedded-opentype'),
+    url('/fonts/Vazir-Thin.woff') format(' woff'),
+    url('/fonts/Vazir-Thin.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'vazirmatn';
+  src: url("/fonts/Vazir-Light.eot") format('embedded-opentype'),
+    url('/fonts/Vazir-Light.woff') format(' woff'),
+    url('/fonts/Vazir-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #000925;
+  font-family: "vazirmatn" !important;
+}
+
+h1,
+h2 {
+  color: #eee;
+}
+
+h3 {
+  padding-bottom: 2rem;
+  color: #000105;
+  font-size: 1.5rem;
+}
+
+.quiz-container {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.container p {
+  padding: 8px 0;
+}
+
+label {
+  font-family: 'vazirmatn' !important;
+}
+
+button {
+  font-family: 'vazirmatn' !important;
+}
+
+p#email-helper-text {
+  color: red;
+  font-family: 'vazirmatn' !important;
+  text-align: right;
+  margin-top: 6px;
+}
+
+.vazir-font {
+  font-family: "vazirmatn" !important;
+}
+
+.MuiInputBase-root.MuiInputBase-colorPrimary.MuiTablePagination-input.css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  display: none;
+}
+
+p.MuiTablePagination-displayedRows.css-levciy-MuiTablePagination-displayedRows {
+  padding: 0 20px;
+}
